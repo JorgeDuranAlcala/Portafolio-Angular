@@ -75,3 +75,8 @@
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
   }
+
+  svg path,
+svg rect{
+  fill: black;
+}

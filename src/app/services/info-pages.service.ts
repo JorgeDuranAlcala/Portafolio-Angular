@@ -24,7 +24,7 @@ export class InfoPagesService {
      this.http.get('assets/data/data-page.json').subscribe( (res:InfoPage) => {
          this.cargada = true;
          this.info = res
-         console.log(res);
+    
      }) 
    }
 
@@ -33,7 +33,7 @@ export class InfoPagesService {
        this.cargada = true;
        this.equipo = res;
 
-       console.log(res)
+      
      })
    }
 }
